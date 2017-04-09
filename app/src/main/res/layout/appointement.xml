@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_register"
+    android:paddingTop="20dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/speciality1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SPECIALITY:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/speciality"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/qualification1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QUALIFICATION:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/qualification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/fee1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FEE:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE:"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="BOOK"
+        android:textColor="@color/white"
+        android:background="#ea4c88"/>
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/medicine_name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="MEDICINE NAME"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/medicine_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/uses1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="USES"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/uses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/side_effects1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="SIDE EFFECTS"
+        android:paddingBottom="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/side_effects"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/precautions1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:text="PRECAUTIONS"
+        />
+
+
+    <TextView
+        android:id="@+id/precautions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/overdose1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="OVERDOSE"
+        android:paddingBottom="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/overdose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/have_details1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="HAVE DETAILS:"
+        android:paddingBottom="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/have_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

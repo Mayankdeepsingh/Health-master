@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:padding="15dp"
+   >
+
+    <TextView
+        android:id="@+id/disease_name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="DISEASE NAME"
+        android:paddingTop="10dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/disease_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/expectation1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="EXPECTATIONS"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/expectation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/questions1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="QUESTIONS"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/treatments1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="TREATMENTS"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/treatments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/risks1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="RISKS"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/risks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/symptoms1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="SYMPTOMPS"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/symptoms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/how_common1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="HOW COMMON"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/how_common"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/selfcare1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="SELFCARE"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/selfcare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/when_to_see_doctor1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="WHEN TO SEE DOCTOR"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/when_to_see_doctor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/diagnosed_by1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="DIAGNOSED BY"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/diagnosed_by"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/made_worse_by1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="MADE WORSE BY"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/made_worse_by"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="6dip"
+        android:textColor="#607D8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

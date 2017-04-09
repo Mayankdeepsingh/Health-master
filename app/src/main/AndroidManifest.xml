@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mayank.healthcare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcherlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        `
+        <activity
+            android:name=".MainActivity"
+            android:taskAffinity="com.mayank.healthcare.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".splash"
+            android:taskAffinity="com.mayank.healthcare.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".symptomsneed" />
+        <activity android:name=".predictor" />
+        <activity android:name=".medicine" />
+        <activity android:name=".medicinedata" />
+        <activity android:name=".Conditions" />
+        <activity android:name=".diseasedata" />
+        <activity android:name=".Doctorlist" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".appointement" />
+        <activity android:name=".confirmbooking"></activity>
+    </application>
+
+</manifest>

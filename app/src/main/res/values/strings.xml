@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Health Care</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_Phone">Phone no</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <!-- Names -->
+    <string-array name="Member_names">
+        <item>Symptomps Checker</item>
+        <item>Conditions</item>
+        <item>Medicine</item>
+
+
+        <item>Login</item>
+
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="profile_pics">
+        <item>@drawable/body</item>
+        <item>@drawable/heart</item>
+        <item>@drawable/medicine</item>
+
+
+        <item>@drawable/loginicon</item>
+
+    </array>
+
+
+</resources>
